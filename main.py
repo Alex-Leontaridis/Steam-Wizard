@@ -6,7 +6,7 @@ intents = discord.Intents.all()
 
 client = commands.Bot(command_prefix='!',intents=intents)
 
-steamapi.core.APIConnection(api_key="845D06553E11DDC0BAAE9D01C61EF886", validate_key=True)  # <-- Insert API key here
+steamapi.core.APIConnection(api_key="[Enter API Key]", validate_key=True)  # <-- Insert API key here
 
 @client.event
 async def on_ready():
